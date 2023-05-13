@@ -234,6 +234,23 @@ body {
   top: 174px;
   border-radius: 4px;
 }
+.projects {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.project-sections {
+  color: var(--grey);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
 .background-footer {
   width: 1600px;
   height: 252px;
