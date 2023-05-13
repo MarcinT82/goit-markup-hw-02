@@ -3,12 +3,21 @@ body {
   color: #212121;
   background: #e5e5e5;
 }
+:root {
+  --brand-color: #2196f3;
+  --white: #ffffff;
+  --grey: #757575;
+  --black: #000000;
+  --less-black: #2f303a;
+  --white-grey: rgba(255, 255, 255, 0.6);
+  --less-white: #f5f4fa;
+}
 .background-header {
   width: 1600px;
   height: 160px;
   left: 0px;
   top: 0px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 .logotype-webstudio-header {
   font-family: 'Raleway';
@@ -17,14 +26,14 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--black);
 }
 .logotype-web {
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .link {
   font-style: normal;
@@ -35,7 +44,7 @@ body {
   color: #212121;
 }
 .link-portfolio {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .link-contact-header {
   font-family: 'Roboto';
@@ -44,18 +53,65 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--grey);
+}
+.buttons:hover,
+.buttons:focus {
+  border-color: var(--brand-color);
 }
 .links:hover,
 .links:focus {
-  color: #2196f3;
+  color: var(--brand-color);
+}
+.button-all {
+  color: var(--white);
+  background: var(--brand-color);
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-pages {
+  background-color: var(--less-white);
+  width: 93px;
+  height: 38px;
+  left: 639px;
+  top: 174px;
+  border-radius: 4px;
+}
+.button-aplications {
+  background-color: var(--less-white);
+  width: 114px;
+  height: 38px;
+  left: 740px;
+  top: 174px;
+  border-radius: 4px;
+}
+.button-design {
+  background-color: var(--less-white);
+  width: 91px;
+  height: 38px;
+  left: 862px;
+  top: 174px;
+  border-radius: 4px;
+}
+.button-marketing {
+  background-color: var(--less-white);
+  width: 121px;
+  height: 38px;
+  left: 961px;
+  top: 174px;
+  border-radius: 4px;
 }
 .background-footer {
   width: 1600px;
   height: 252px;
   left: 0px;
   top: 1628px;
-  background-color: #2f303a;
+  background-color: var(--less-black);
 }
 .logotype-webstudio-footer {
   font-family: 'Raleway';
@@ -64,10 +120,10 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white);
 }
 .address {
-  color: #ffffff;
+  color: var(--white);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -84,5 +140,5 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-grey);
 }
