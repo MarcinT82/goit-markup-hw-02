@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #212121;
-  background: #e5e5e5;
 }
 :root {
   --brand-color: #2196f3;
@@ -14,7 +13,7 @@ body {
 }
 .background-header {
   width: 1600px;
-  height: 160px;
+  height: 80px;
   left: 0px;
   top: 0px;
   background-color: var(--white);
@@ -168,6 +167,9 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.links {
+  text-decoration: inherit;
+}
 .link-portfolio {
   color: var(--brand-color);
 }
@@ -293,4 +295,7 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--white-grey);
+}
+.dots {
+  list-style: none;
 }
