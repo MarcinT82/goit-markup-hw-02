@@ -12,8 +12,6 @@ body {
   --less-white: #f5f4fa;
 }
 .background-header {
-  width: 1600px;
-  height: 80px;
   left: 0px;
   top: 0px;
   background-color: var(--white);
@@ -32,22 +30,16 @@ body {
   color: none;
 }
 .logotype-web {
-  width: 145px;
-  height: 31px;
   left: 215px;
   top: 24px;
   color: var(--brand-color);
 }
 .first-section-index {
   background-color: var(--less-black);
-  width: 1600px;
-  height: 600px;
   left: 0px;
   top: 80px;
 }
 .first-section-text {
-  width: 696px;
-  height: 120px;
   left: 452px;
   top: 280px;
   font-family: 'Roboto';
@@ -61,8 +53,6 @@ body {
   color: var(--white);
 }
 .second-section-haeding {
-  width: 270px;
-  height: 16px;
   left: 515px;
   top: 774px;
   font-family: 'Roboto';
@@ -74,8 +64,6 @@ body {
   text-transform: uppercase;
 }
 .second-section-text {
-  width: 270px;
-  height: 75px;
   left: 215px;
   top: 800px;
   font-family: 'Roboto';
@@ -87,8 +75,6 @@ body {
   color: var(--grey);
 }
 .second-section-second-text {
-  width: 352px;
-  height: 42px;
   left: 624px;
   top: 969px;
   font-family: 'Roboto';
@@ -101,15 +87,11 @@ body {
   padding: 10px 41px 10px 41px;
 }
 .third-section {
-  width: 1600px;
-  height: 648px;
   left: 0px;
   top: 1449px;
   background-color: var(--less-white);
 }
 .third-section-heading {
-  width: 210px;
-  height: 42px;
   left: 695px;
   top: 1543px;
   font-family: 'Roboto';
@@ -123,7 +105,6 @@ body {
 }
 .third-section-heading-text {
   width: 72px;
-  height: 19px;
   left: 314px;
   top: 1925px;
   font-family: 'Roboto';
@@ -136,7 +117,6 @@ body {
 }
 .third-section-job-titles {
   width: 87px;
-  height: 19px;
   left: 1207px;
   top: 1954px;
   font-family: 'Roboto';
@@ -150,8 +130,6 @@ body {
 }
 .button-order {
   background: var(--brand-color);
-  border: var(--brand-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--white);
   cursor: pointer;
   font-family: 'roboto';
@@ -206,40 +184,18 @@ body {
 }
 .button-all {
   background: var(--less-white);
-  width: 121px;
-  height: 38px;
-  left: 510px;
-  top: 174px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-pages {
   background-color: var(--less-white);
-  width: 93px;
-  height: 38px;
-  left: 639px;
-  top: 174px;
 }
 .button-aplications {
   background-color: var(--less-white);
-  width: 114px;
-  height: 38px;
-  left: 740px;
-  top: 174px;
 }
 .button-design {
   background-color: var(--less-white);
-  width: 91px;
-  height: 38px;
-  left: 862px;
-  top: 174px;
 }
 .button-marketing {
   background-color: var(--less-white);
-  width: 121px;
-  height: 38px;
-  left: 961px;
-  top: 174px;
 }
 .projects {
   font-family: 'Roboto';
@@ -259,8 +215,6 @@ body {
   letter-spacing: 0.03em;
 }
 .background-footer {
-  width: 1600px;
-  height: 252px;
   left: 0px;
   top: 1628px;
   background-color: var(--less-black);
@@ -282,8 +236,6 @@ body {
   color: var(--white);
   font-family: 'Roboto';
   font-style: normal;
-  width: 247px;
-  height: 21px;
   left: 215px;
   top: 1739px;
   font-weight: 400;
