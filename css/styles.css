@@ -12,8 +12,6 @@ body {
   --less-white: #f5f4fa;
 }
 .background-header {
-  left: 0px;
-  top: 0px;
   background-color: var(--white);
 }
 .logotype-webstudio-header {
@@ -30,18 +28,12 @@ body {
   color: none;
 }
 .logotype-web {
-  left: 215px;
-  top: 24px;
   color: var(--brand-color);
 }
 .first-section-index {
   background-color: var(--less-black);
-  left: 0px;
-  top: 80px;
 }
 .first-section-text {
-  left: 452px;
-  top: 280px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -53,8 +45,6 @@ body {
   color: var(--white);
 }
 .second-section-haeding {
-  left: 515px;
-  top: 774px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -64,8 +54,6 @@ body {
   text-transform: uppercase;
 }
 .second-section-text {
-  left: 215px;
-  top: 800px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -75,8 +63,6 @@ body {
   color: var(--grey);
 }
 .second-section-second-text {
-  left: 624px;
-  top: 969px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -87,13 +73,9 @@ body {
   padding: 10px 41px 10px 41px;
 }
 .third-section {
-  left: 0px;
-  top: 1449px;
   background-color: var(--less-white);
 }
 .third-section-heading {
-  left: 695px;
-  top: 1543px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -105,8 +87,6 @@ body {
 }
 .third-section-heading-text {
   width: 72px;
-  left: 314px;
-  top: 1925px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -117,8 +97,6 @@ body {
 }
 .third-section-job-titles {
   width: 87px;
-  left: 1207px;
-  top: 1954px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -139,6 +117,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border: none;
 }
 .button-order:hover,
 .button-order:focus {
@@ -181,6 +160,7 @@ body {
 }
 .buttons {
   cursor: pointer;
+  border: none;
 }
 .button-all {
   background: var(--less-white);
@@ -215,8 +195,6 @@ body {
   letter-spacing: 0.03em;
 }
 .background-footer {
-  left: 0px;
-  top: 1628px;
   background-color: var(--less-black);
 }
 .logotype-webstudio-footer {
@@ -249,9 +227,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: var(--white-grey);
 }
 .dots {
